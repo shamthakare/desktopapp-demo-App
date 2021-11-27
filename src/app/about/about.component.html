@@ -1,0 +1,13 @@
+<div class="row"  >
+    <div class="col-md-4 mt-3" *ngFor="let item of data">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" [src]=" item.avatar " alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">{{item.first_name}} {{item.last_name}}</h5>
+              <p class="card-text">{{item.email}}</p>
+             </div>
+          </div>
+    </div>
+</div>
+
+ 

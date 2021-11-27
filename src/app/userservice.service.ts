@@ -12,5 +12,8 @@ export class UserserviceService {
   getData(): Observable<any> {
     return this.http.get(environment.base_URL);
   }
+  getDataWithAvtar() : Observable<any> {
+    return this.http.get(environment.base_URL_REQ);
+  }
 
 }

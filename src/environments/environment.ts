@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  base_URL:"http://localhost:15892/" 
+  base_URL: "http://localhost:15892/",
+  base_URL_REQ: "https://reqres.in/api/users/"
 };
 
 /*
