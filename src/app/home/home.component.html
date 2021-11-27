@@ -1,0 +1,21 @@
+<div class="container mt-5">
+    <h1>home componenet</h1>
+    <table class="table table-responsive">
+        <tr>
+            <td>address</td>
+            <td>email</td>
+            <td>firstname</td>
+            <td>lastname</td>
+            <td>mobile</td>
+            <td>pincode</td>
+        </tr>
+        <tr *ngFor="let i of data">
+            <td>{{i.address}}</td>
+            <td>{{i.email}}</td>
+            <td>{{i.firstname}}</td>
+            <td>{{i.lastname}}</td>
+            <td>{{i.mobile}}</td>
+            <td>{{i.pincode}}</td>
+        </tr>
+    </table>
+</div>
